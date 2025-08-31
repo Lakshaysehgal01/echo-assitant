@@ -20,3 +20,5 @@ export const contactSessionIdAtomFamily = atomFamily(
     );
   }
 );
+
+export const converstaionIdAtom = atom<Id<"conversations"> | null>(null);
